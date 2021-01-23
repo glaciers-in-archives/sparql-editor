@@ -3,37 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Thor SPARQL Editor - K-samsök</title>
+    <title>SPARQL Editor | Glacier in Archives</title>
 
     <link href="libs/yasqe.min.css" rel="stylesheet">
     <script src="libs/yasqe.bundled.min.js"></script>
 
     <link href="style.css" rel="stylesheet">
-
-    <!-- generics -->
-    <link rel="icon" href="assets/favicon/raa-favicon-32.png" sizes="32x32">
-    <link rel="icon" href="assets/favicon/raa-favicon-57.png" sizes="57x57">
-    <link rel="icon" href="assets/favicon/raa-favicon-76.png" sizes="76x76">
-    <link rel="icon" href="assets/favicon/raa-favicon-96.png" sizes="96x96">
-    <link rel="icon" href="assets/favicon/raa-favicon-128.png" sizes="128x128">
-    <link rel="icon" href="assets/favicon/raa-favicon-228.png" sizes="228x228">
-
-    <!-- Android -->
-    <link rel="shortcut icon" sizes="196x196" href="assets/favicon/raa-favicon-196.png">
-
-    <!-- iOS -->
-    <link rel="apple-touch-icon" href="assets/favicon/raa-favicon-120.png" sizes="120x120">
-    <link rel="apple-touch-icon" href="assets/favicon/raa-favicon-152.png" sizes="152x152">
-    <link rel="apple-touch-icon" href="assets/favicon/raa-favicon-180.png" sizes="180x180">
-
-    <!-- Windows 8 IE 10-->
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="assets/favicon/raa-favicon-144.png">
   </head>
   <body>
     <nav class="raa-nav m-b-small">
-      <h1 style="width: 50px;display: inline-block;margin-top: .7em;margin-bottom: 0;">K-samsök</h1>
-      <!--<img src="assets/soch-logo.svg">-->
+      <h1 style="display: inline-block;margin-top: .7em;margin-bottom: 0;">GiA: SPARQL</h1>
       <ul>
         <li><a href="#query-library-modal">Query Library</a></li>
         <li><a href="#documentation-modal">Documentation</a></li>
@@ -93,7 +72,7 @@
           <img src="assets/close_white_orange.png" aria-hidden="true">
         </a>
 
-        <input type="url" id="endpointInput" class="m-tb-small m-lr-small raa-input" style="width:483px" placeholder="http://example.com/soch-sparql">
+        <input type="url" id="endpointInput" class="m-tb-small m-lr-small raa-input" style="width:483px" placeholder="http://example.com/gia-sparql">
         <button class="m-tb-small m-lr-small raa-button raa-button-confirm" style="width:483px" onclick="closeAndSetEndpointModal()">Save</button>
       </div>
     </div>
@@ -157,9 +136,6 @@
               </tr>
             </tbody>
           </table>
-
-          <h3>Contribute</h3>
-          <p>This SPARQL Editor is Open Source and you can report issues as well as contributing code through <a href="https://github.com/Abbe98/thor">Github</a>. You can also contribute to the Query Library by improving or adding new queries through the <a href="https://github.com/Abbe98/soch-sparql-query-library">Query Library repository</a>.</p>
         </div>
       </div>
     </div>

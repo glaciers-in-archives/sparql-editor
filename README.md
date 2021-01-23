@@ -1,6 +1,6 @@
-# Thor SPARQL Editor
+# GiA SPARQL Editor
 
-_An interactive and user friendly SPARQL editor for the Swedish Open Cultural Heritage LOD platform._
+An interactive and user-friendly SPARQL editor for Glacier in Archives. Based on [the Thor SPARQL Editor](https://github.com/Abbe98/thor/).
 
 ## Features
 
@@ -11,8 +11,3 @@ _An interactive and user friendly SPARQL editor for the Swedish Open Cultural He
  * A resizable code editor
  * A interactive tour of the GUI
  * _...and plenty of others..._
-
-## What Thor isn't
-
- * A project from the Swedish National Heritage Board
- * A SPARQL backend

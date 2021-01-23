@@ -32,7 +32,7 @@ p {
 
 a {
   display: inline-block;
-  color: #c94a18;
+  color: #1856c9;
   text-decoration: underline;
   cursor: pointer;
   transition: all .4s;
@@ -41,13 +41,13 @@ a {
 }
 
 a:active {
-  color: #a33b14;
-  border-color: #a33b14;
+  color: #1347a7;
+  border-color: #1347a7;
 }
 
 a:hover {
-  color: #b54216;
-  text-decoration-color: #b54216;
+  color: #0040b8;
+  text-decoration-color: #0040b8;
 }
 
 button,
@@ -79,15 +79,15 @@ select {
 }
 
 .raa-button-confirm {
-  background-color: #008578;
-  border-color: #008578;
+  background-color: #1856c9;
+  border-color: #1856c9;
 }
 
 .raa-button-confirm:hover,
 .raa-button-confirm:active,
 .raa-button-confirm:focus {
-  background-color: #00786c;
-  border-color: #00786c;
+  background-color: #0040b8;
+  border-color: #0040b8;
 }
 
 .raa-nav {
@@ -125,7 +125,7 @@ select {
 .raa-nav a:focus,
 .raa-nav a:active,
 .raa-nav a.current {
-  border-bottom: 2px solid #b54216;
+  border-bottom: 2px solid #0040b8;
 }
 
 .raa-nav img {
@@ -184,7 +184,7 @@ select {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 2px;
-  background: #c94a17;
+  background: #1347a7;
 }
 
 .raa-loading {
@@ -216,7 +216,7 @@ select {
 }
 
 .raa-alert {
-  background-color: #c94a17;
+  background-color: #1347a7;
   color: #fff;
   padding: .75rem 1.25rem;
   position: fixed;
@@ -281,7 +281,7 @@ select {
 }
 
 .raa-large-list li div {
-  border-left: 7px solid #c94a17;
+  border-left: 7px solid #1347a7;
   padding-left: 15px;
   height: 60px;
 }
@@ -291,17 +291,17 @@ select {
 }
 
 .raa-large-list li div.interactive h3 {
-  color: #c94a17;
+  color: #1347a7;
 }
 
 .raa-large-list li div.interactive:hover h3 {
   text-decoration: underline;
-  color: #a33b14;
+  color: #0040b8;
 }
 
 .raa-large-list li div.interactive:hover {
-  color: #a33b14;
-  border-color: #a33b14;
+  color: #0040b8;
+  border-color: #0040b8;
 }
 
 .share-btn {
