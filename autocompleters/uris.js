@@ -1,10 +1,14 @@
 const uris = [
-  'http://kulturarvsdata.se/',
-  'http://viaf.org/viaf/',
-  'http://www.wikidata.org/entity/',
-  'http://data.europeana.eu/item/',
-  'http://kulturnav.org/',
-  'http://sws.geonames.org/',
+  'https://www.glaciersinarchives.org/landform/',
+  'https://www.glaciersinarchives.org/record/',
+  'https://www.glaciersinarchives.org/id/type/photograph',
+  'https://www.glaciersinarchives.org/id/agent/person',
+  'https://www.glaciersinarchives.org/id/agent/machine',
+  'https://www.glaciersinarchives.org/id/type/work',
+  'https://www.glaciersinarchives.org/id/type/painting',
+  'https://www.glaciersinarchives.org/id/type/map',
+  'https://www.glaciersinarchives.org/id/type/aerial-photograph',
+  'https://www.glaciersinarchives.org/id/type/stereoscopic-photograph',
 ];
 
 const customUrisCompleter = function(yasqe) {
