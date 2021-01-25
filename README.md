@@ -1,6 +1,6 @@
 # GiA SPARQL Editor
 
-An interactive and user-friendly SPARQL editor for Glacier in Archives. Based on [the Thor SPARQL Editor](https://github.com/Abbe98/thor/).
+An interactive and user-friendly SPARQL editor for Glaciers in Archives. Based on [the Thor SPARQL Editor](https://github.com/Abbe98/thor/).
 
 ## Features
 
