@@ -1,9 +1,0 @@
-[
-    {
-        "title": "Photograph of the Helags glacier",
-        "tags": [
-            "basic"
-        ],
-        "body": "PREFIX schema: <https://schema.org/>\n\nSELECT * WHERE {\n  ?record schema:spatial <https://www.glaciersinarchives.org/landform/505> .\n  ?record a <https://www.glaciersinarchives.org/id/type/photograph>\n}"
-    }
-]

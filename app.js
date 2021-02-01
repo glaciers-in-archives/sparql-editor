@@ -252,7 +252,7 @@ function render() {
 
 
 function setupQueryLibrary() {
-  fetch('queries.json').then(response => {
+  fetch('https://glaciers-in-archives.github.io/sparql-query-library/queries.json').then(response => {
     return response.json();
   }).then(data => {
     data.forEach(query => {
