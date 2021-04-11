@@ -1,6 +1,6 @@
 const classes = [
   'https://schema.org/Landform',
-  'https://www.glaciersinarchives.org/id/type/photograph',
+  'https://schema.org/CreativeWork',
   'http://www.w3.org/ns/oa#Annotation',
   'http://www.w3.org/ns/activitystreams#Person',
   'http://www.w3.org/2004/02/skos/core#Concept',
