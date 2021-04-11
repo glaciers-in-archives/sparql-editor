@@ -1,14 +1,14 @@
 const uris = [
   'https://www.glaciersinarchives.org/landform/',
   'https://www.glaciersinarchives.org/record/',
-  'https://www.glaciersinarchives.org/id/type/photograph',
-  'https://www.glaciersinarchives.org/id/agent/person',
-  'https://www.glaciersinarchives.org/id/agent/machine',
-  'https://www.glaciersinarchives.org/id/type/work',
-  'https://www.glaciersinarchives.org/id/type/painting',
-  'https://www.glaciersinarchives.org/id/type/map',
-  'https://www.glaciersinarchives.org/id/type/aerial-photograph',
-  'https://www.glaciersinarchives.org/id/type/stereoscopic-photograph',
+  'https://www.glaciersinarchives.org/concept/type/photograph',
+  'https://www.glaciersinarchives.org/concept/agent/person',
+  'https://www.glaciersinarchives.org/concept/agent/machine',
+  'https://www.glaciersinarchives.org/concept/type/work',
+  'https://www.glaciersinarchives.org/concept/type/painting',
+  'https://www.glaciersinarchives.org/concept/type/map',
+  'https://www.glaciersinarchives.org/concept/type/aerial-photograph',
+  'https://www.glaciersinarchives.org/concept/type/stereoscopic-photograph',
 ];
 
 const customUrisCompleter = function(yasqe) {
